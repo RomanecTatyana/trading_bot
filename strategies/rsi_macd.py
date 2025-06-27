@@ -1,4 +1,6 @@
-class RSIMACDStrategy:
+from strategies.base import BaseStrategy
+
+class RSIMACDStrategy(BaseStrategy):
     def __init__(self, rsi_buy=30, rsi_sell=70):
         self.rsi_buy = rsi_buy
         self.rsi_sell = rsi_sell

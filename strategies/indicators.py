@@ -21,3 +21,4 @@ def calc_macd(df):
         return df
     except Exception as e:
         print(f"strategies.indicators.py.calc_macd Error: {e}")
+

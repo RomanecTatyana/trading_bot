@@ -7,6 +7,8 @@ class RSIMACDStrategy(BaseStrategy):
 
     def generate_signal(self, row):
         rsi = row.get("rsi")
+        sma = row.get("sma_20")
+        
         macd = row.get("macd")
         macd_signal = row.get("macd_signal")
 
